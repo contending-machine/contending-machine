@@ -1,4 +1,4 @@
-# Name-of-the-Machine
+# Contending-Machine
 A machine that is a contender with other entities.
 
 In order to launch it from the command line or as a Python subprocess:
