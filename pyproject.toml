@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "contending-machine"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
@@ -24,6 +24,7 @@ dependencies = [
 
 [project.scripts]
 contending-machine = "contending_machine.cli:run"
+contend = "contending_machine.cli:run"
 
 [project.urls]
 "Homepage" = "https://github.com/contending-machine/contending-machine"
